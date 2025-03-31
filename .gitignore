@@ -1,0 +1,23 @@
+# 忽略資料集檔案
+datasets/
+
+# Python 暫存檔
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# 虛擬環境
+venv/
+env/
+.env/
+
+# 日誌檔案
+*.log
+
+# 結果輸出檔案
+results/
+
+# 作業系統檔案
+.DS_Store
+Thumbs.db 
