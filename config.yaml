@@ -1,0 +1,21 @@
+datasets:
+  pure_text:
+    - HotpotQA
+    - zh_tw  # 待新增
+
+  text_image:
+    - SlideVQA
+    - zh_tw  # 待新增
+
+retrieval_methods:
+  - bm25
+  - embedding_cosine
+
+indexing:
+  vector_db: qdrant
+  embedding_model: sentence-transformers/multi-qa-mpnet-base-dot-v1
+
+evaluation:
+  framework: ragas
+
+output_path: results/ 
